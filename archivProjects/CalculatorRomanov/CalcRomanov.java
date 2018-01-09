@@ -1,3 +1,4 @@
+//Калькулятор
 import java.util.Scanner;
 
 public class CalcRomanov {

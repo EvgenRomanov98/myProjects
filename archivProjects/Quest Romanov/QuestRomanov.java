@@ -1,3 +1,4 @@
+//Квест
 import java.util.Scanner;
 
 public class QuestRomanov {
