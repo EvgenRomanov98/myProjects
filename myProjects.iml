@@ -12,6 +12,12 @@
       <sourceFolder url="file://$MODULE_DIR$/archivProjects/CalculatorRomanov" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/archivProjects/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/archivProjects/Quest Romanov" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/archivProjects/tablMulty" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/archivProjects/10%" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/archivProjects/Triungle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/archivProjects/Tank" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/archivProjects/Cat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/archivProjects/Student" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

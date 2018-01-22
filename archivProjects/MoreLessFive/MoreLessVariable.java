@@ -1,3 +1,4 @@
+//Увеличить число на 10%
 import java.util.Scanner;
 
 public class MoreLessVariable {

@@ -1,4 +1,4 @@
-public class Main2 {
+public class MainСat {
     public static void main(String[] args) {
 
         Cat cat = new Cat("Timosha", 15, "Black", 20, 50);
