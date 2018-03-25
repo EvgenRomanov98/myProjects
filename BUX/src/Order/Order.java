@@ -7,9 +7,9 @@ public class Order {
 
     private String name;    // название
     private int sum;        // сума заказа
-    private int costs;      // расходы
-    private int avans;      // аванс
-    private int payment;    // оплата
+    private Costs costs;      // расходы
+    private Avans avans;      // аванс
+    private Payment payment;    // оплата
     private int debt;       // долг
     private int remainder;  // остаток (аванс + оплата - расходы)
     private String date;    // дата установки
@@ -47,21 +47,21 @@ public class Order {
     }
 
     public int getCosts() {
-        return costs;
+        return costs.getSum();
     }
 
-    public void setCosts(int costs) {
+    public void setCosts(Costs costs) {
         this.costs = costs;
     }
 
     public int getAvans() {
-        return avans;
+        return avans.getSum();
     }
 
-    public void setAvans(int avans) {
-        if (this.avans != this.sum) {
-            this.avans += avans;
-            this.payment += avans;
+    public void setAvans(Avans avans) {
+        if (this.avans.getSum() != this.sum) {
+            this.avans.setSum(this.avans.getSum() + avans.getSum());
+            this.payment.setSum(avans.getSum());
         } else {
             System.out.println("клиент уже расплатился, сумма всех авансов равна сумме заказа");
         }
